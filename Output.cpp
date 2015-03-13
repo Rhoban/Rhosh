@@ -24,7 +24,7 @@
 
 #include <stdlib.h>
 #include <limits.h>
-#include "Output.h"
+#include "rhosh/Output.h"
 
 namespace Rhosh
 {

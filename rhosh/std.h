@@ -15,4 +15,6 @@ namespace Rhosh
     };
 }
 
+void terminal_std_init();
+
 #endif

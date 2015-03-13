@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include "terminal.h"
+#include "rhosh/terminal.h"
 
 using namespace Rhosh;
 

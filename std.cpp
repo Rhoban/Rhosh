@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <iostream>
-#include "Std.h"
+#include "rhosh/terminal.h"
+#include "rhosh/std.h"
 
 using namespace std;
 
@@ -38,4 +39,10 @@ namespace Rhosh
         cout << ch;
         fflush(stdout);
     }
+}
+
+static Rhosh::Std io;
+void terminal_std_init()
+{ 
+    terminal_init(&io);
 }
